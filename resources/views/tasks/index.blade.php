@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-md-10">
         <a href="{{ route('tasks.create') }}" class="btn btn-sm btn-dark mb-3">Add</a>
-        <form class="d-flex mt-4 mb-4" role="search">
+        <form class="d-flex mt-4 mb-4" role="search" action="">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
